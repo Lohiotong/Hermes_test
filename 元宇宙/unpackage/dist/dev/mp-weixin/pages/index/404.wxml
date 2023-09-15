@@ -1,0 +1,1 @@
+<view class="NotFind"><image class="noResult _img" src="{{$root.m0}}" alt></image><label class="_span">未搜索到您的证书</label><button data-event-opts="{{[['tap',[['returnIndex',['$event']]]]]}}" bindtap="__e">返回</button><image class="logo _img" src="{{$root.m1}}"></image></view>

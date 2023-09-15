@@ -1,0 +1,35 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "证书查询"
+			}
+			
+		},
+		{
+			"path": "pages/index/detail",
+			"style": {
+				"navigationBarTitleText": "查询结果",
+				"backgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/index/404",
+			"style": {
+				"navigationBarTitleText": "证书查询"
+			}
+		},{
+			"path": "pages/index/addMember",
+			"style": {
+				"navigationBarTitleText": "添加成员"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
